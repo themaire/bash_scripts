@@ -1,0 +1,1 @@
+avconv -r 10 -i img%04d.jpg -r 10 -vcodec libx264 -crf 20 -g 15 ../tl_1.mp4
